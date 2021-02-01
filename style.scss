@@ -827,6 +827,7 @@ body {
                     background: linear-gradient(0deg, transparent 0%, transparent 50%, #fff 100%);
                     background: conic-gradient(transparent, transparent, transparent, #fff, transparent, transparent, transparent);
                     mask-image: url(img/clip-path.svg);
+                    -webkit-mask-image: url(img/clip-path.svg);
                     animation: retention_ring_anim 6s steps(120) infinite;
                 }
 
